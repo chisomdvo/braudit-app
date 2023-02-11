@@ -1,6 +1,6 @@
 @font-face {
   font-family: "satoshi";
-  src: url("/dist/fonts/Satoshi-Variable.ttf") format("truetype");
+  src: url("../fonts/Satoshi-Variable.ttf") format("truetype");
 }
 
 .swiperwrap.swiper {
