@@ -18,18 +18,7 @@
       body {
         height: 100%;
       }
-      .bodywrapper {
-        position: absolute;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        top: 0;
-      }
       .thebottom {
-        position: absolute;
-        right: 0;
-        left: 0;
-        bottom: 0;
         height: 100px;
       }
       .custom-fonts {
@@ -37,7 +26,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="bg-[#1E1E1E]">
     <div class="bg-[#1E1E1E] bodywrapper px-2 sm:px-6 lg:px-8 custom-fonts">
       <nav class="bg-[#1E1E1E]">
         <div class="max-w-7xl mx-auto">
@@ -117,7 +106,7 @@
                   >
                   <a
                     onclick="sendInquiry()"
-                    class="block mt-1 sm:hidden cursor-pointer text-white hover:text-gray-300 px-6 py-2 text-base font-medium"
+                    class="block mt-1 sm:hidden cursor-pointer text-white hover:text-gray-300 pr-2 py-2 text-base font-medium"
                     >About us</a
                   >
                 </div>
@@ -129,7 +118,7 @@
       <div class="max-w-7xl mx-auto">
         <div class="text-center">
           <h2
-            class="sm:text-lg text-base mt-20 sm:mt-40 mb-6 tracking-tight text-[#999999]"
+            class="sm:text-lg text-base mt-20 sm:mt-40 mb-5 tracking-tight text-[#999999]"
           >
             Welcome to Africa
           </h2>
@@ -152,7 +141,7 @@
                 <div class="swiper-wrapper" id="output_post2"></div>
               </div>
             </div>
-            <div class="flex mt-8 justify-center items-center text-center">
+            <div class="flex mt-6 justify-center items-center text-center">
               <div class="swiper-button-prev-unique"></div>
               <div class="swiper-button-next-unique"></div>
             </div>
@@ -176,7 +165,7 @@
             We are taking African Talents to the rest of the world.
           </p>
 
-          <div class="flex mt-10 justify-center">
+          <div class="flex mt-7 justify-center">
             <button
               type="button"
               onclick="sendQuery()"
@@ -189,7 +178,7 @@
       </div>
       <footer>
         <div
-          class="flex bg-[#1E1E1E] thebottom pt-50 items-center text-center flex mt-3 justify-center"
+          class="flex bg-[#1E1E1E] thebottom pt-50 items-center text-center flex mt-10 justify-center"
         >
           <p class="text-lg text-[#999999] sm:text-sm">
             Stay connected on
